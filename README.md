@@ -23,31 +23,31 @@ Projekt snažící se napodobit originální hru Pac Mana. Obsahuje bugy!
 
 Projekt je rozdělen do několika souborů:
 Složka game:
-    - 'config' - základní konfigurace obrazovky
-    - 'game.h' - obsahuje vše co potřebujeme využívat v dalších souborech
-    - 'bfs.c' - obsahuje BFS (Breadth-first search) algoritmus pro hledání nejkratší cesty k pac manovi pro duchy. 
-    - 'wallChecker.c'- obsahuje funkce pro Pac Mana a duchy, které využívají k detekci zdí, volného prostoru atd..
-    - 'core.c' - Hlavní soubor hry. Obsahuje směs funkcí potřebné k rozjetí hry
-    - 'field.c' - Obsahuje import mapy z txt souboru a funkci pro následné vykreslení na obrazovku z texťáku
-    - 'fruit,c' - Obsahuje funkce pro vykreslení ovoce, detaily a funkce co dělat když je pac man na pozici ovoce.
-    - 'ghostsAI.c' - Soubor obsahující logiku pro duchy, využívající algoritmus BFS z souboru bfs.c
-    - 'pacmanAI.c' - Soubor obsahující logiku pro pac mana.
-    - 'points.c' - Soubor vykreslující power pallets na mapě.
+    - *'config'*- základní konfigurace obrazovky
+    - *'game.h'* - obsahuje vše co potřebujeme využívat v dalších souborech
+    - *'bfs.c'* - obsahuje BFS (Breadth-first search) algoritmus pro hledání nejkratší cesty k pac manovi pro duchy. 
+    - *'wallChecker.c'* - obsahuje funkce pro Pac Mana a duchy, které využívají k detekci zdí, volného prostoru atd..
+    - *'core.c'* - Hlavní soubor hry. Obsahuje směs funkcí potřebné k rozjetí hry
+    - *'field.c'* - Obsahuje import mapy z txt souboru a funkci pro následné vykreslení na obrazovku z texťáku
+    - *'fruit,c'* - Obsahuje funkce pro vykreslení ovoce, detaily a funkce co dělat když je pac man na pozici ovoce.
+    - *'ghostsAI.c'* - Soubor obsahující logiku pro duchy, využívající algoritmus BFS z souboru bfs.c
+    - *'pacmanAI.c'* - Soubor obsahující logiku pro pac mana.
+    - *'points.c'* - Soubor vykreslující power pallets na mapě.
 
 Složka entities:
-    - 'entities.c' - Hlavní soubor, vykreslující všechny obrázky, texty atp...
+    - *'entities.c'* - Hlavní soubor, vykreslující všechny obrázky, texty atp...
 
-- Složka img - obsahuje hudbu, obrázky ovoce, duchů, pac mana atd...
-- Složka Maps - Obsahuje zatím jen jednu mapu
+- *Složka img* - obsahuje hudbu, obrázky ovoce, duchů, pac mana atd...
+- *Složka Maps* - Obsahuje zatím jen jednu mapu
 
 Složka menu:
-    - 'loadScore.c' - Soubor sloužící pro import a export skóre, která uživatel ve hře získal.
-    - 'menu.c' - Soubor obsahující vše potřebné k zobrazení menu hry
-    - 'sound.c' - Soubor obsahující funkce potřebné k spuštění zvuků. (Využívá SDL2 mixer)
+    - *'loadScore.c'* - Soubor sloužící pro import a export skóre, která uživatel ve hře získal.
+    - *'menu.c'* - Soubor obsahující vše potřebné k zobrazení menu hry
+    - *'sound.c'* - Soubor obsahující funkce potřebné k spuštění zvuků. (Využívá SDL2 mixer)
 
-Soubor main.c - slouží k správnému chodu programu.
+*Soubor main.c* - slouží k správnému chodu programu.
 
-highscore.txt - ukládá se do něj nejvyšší skóre, které uživatel ve hře získal.
+*highscore.txt* - ukládá se do něj nejvyšší skóre, které uživatel ve hře získal.
 
 Program taky obsahuje hlavičkové soubory (s příponou .h), které slouží k tomu abychom mohli využívat funkce, proměnné z .c souboru dále
 
