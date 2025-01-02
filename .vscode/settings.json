@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "cstdlib": "c",
+        "sdl_ttf.h": "c",
+        "sdl.h": "c",
+        "options.h": "c",
+        "config.h": "c",
+        "pacman.h": "c",
+        "sdl_image.h": "c",
+        "stdio.h": "c",
+        "game.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "wallChecker.h": "c",
+        "points.h": "c",
+        "ghosts.h": "c",
+        "limits.h": "c",
+        "sound.h": "c",
+        "bfs.h": "c",
+        "pacmanai.h": "c"
+    }
+}

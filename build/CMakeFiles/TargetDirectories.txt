@@ -1,0 +1,3 @@
+/mnt/c/users/papez/onedrive/plocha/pac-man-main/build/CMakeFiles/pacman.dir
+/mnt/c/users/papez/onedrive/plocha/pac-man-main/build/CMakeFiles/edit_cache.dir
+/mnt/c/users/papez/onedrive/plocha/pac-man-main/build/CMakeFiles/rebuild_cache.dir
