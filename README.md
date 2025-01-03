@@ -10,7 +10,7 @@ V tomto projektu jsem se snažil vytviř hru **Pac-Man** v jazyce C s využitím
 
 - **Pac-Man** se pohybuje po bludišti a sbírá body.
 - **Duchové** se pohybují po mapě a hráč se jim musí vyhnout, aby neztratil život.
-- Hráč sbírá malé body (**mince**), které jsou roztroušeny po mapě.
+- Hráč sbírá malé body (**mince**), které jsou rozmístěny po mapě.
 - Na mapě se objevují náhodně **bonusové ovoce**, které přidávají další body.
 - Pac-Man a duchové mohou využívat **teleporty** (tunely označené číslem `5` na mapě), které je přenesou na opačnou stranu mapy.
 - V režimu **frightened** (když Pac-Man sní **power pellet**, které jsou v rozích mapy) může Pac-Man sníst duchy, což hráči přidá dodatečné body.
